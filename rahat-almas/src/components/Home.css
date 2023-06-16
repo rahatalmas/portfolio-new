@@ -28,13 +28,13 @@
     grid-template-columns: 45% 45%;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:1%;
 }
 
 .language-skills-item{
     background-color: rgba(25, 25, 46, 0.13);
     text-align: left;
-    margin-top: 50px;
+    margin-top: 25px;
     padding:0px 15px;
     border:1px solid rgb(31, 31, 31);
     border-radius: 5px;
@@ -50,6 +50,25 @@
     padding: 0px;
 }
 .projects{
-    background-color: aqua;
-    
+    margin: 0 auto;
+    background-color: rgba(25, 25, 46, 0.13);
+    width: 91%;
+    margin-top: 25px;
+    border:1px solid rgb(31, 31, 31);
+}
+
+.project-row{
+    padding:15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-col{
+    background-color: rgb(39, 12, 12);
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
 }

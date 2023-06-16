@@ -19,7 +19,7 @@ const Home = () =>{
           <div className='about'>
                 <div className='language-skills'>
                     <div className='language-skills-item'>
-                        <h4>Language</h4>
+                        <h4>Language :</h4>
                         <div className='l-s-img-row'>
                             <img className='l-s-img' alt='c++' src='./images/languages/cpp.png'/>
                             <img className='l-s-img' alt='javascript' src='./images/languages/js.png'/>
@@ -38,13 +38,13 @@ const Home = () =>{
                         </div>
                     </div>
                     <div className='language-skills-item'>
-                        <h4>Skills</h4>
+                        <h4>Skills :</h4>
                         <div className='l-s-img-row'>
-                            <img className='l-s-img' alt='React' src=''/>
-                            <img className='l-s-img' alt='Nodejs' src=''/>
-                            <img className='l-s-img' alt='Express' src=''/>
-                            <img className='l-s-img' alt='prisma-orm' src=''/>
-                            <img className='l-s-img' alt='MySql' src=''/>
+                            <img className='l-s-img' alt='React' src='./images/skills/react.png'/>
+                            <img className='l-s-img' alt='Nodejs' src='./images/skills/nodejs.png'/>
+                            <img className='l-s-img' alt='Express' src='./images/skills/express.png'/>
+                            <img className='l-s-img' alt='prisma-orm' src='./images/skills/prisma.svg'/>
+                            <img className='l-s-img' alt='MySql' src='./images/skills/sql.png'/>
                         </div>
                         <div className='l-s-description'>
                             <ul>
@@ -59,8 +59,16 @@ const Home = () =>{
                 </div>
 
                 <div className='projects'>
-                    <div>
-                        project card
+                    <div className='project-row'> 
+                        <div className='project-col'>
+                                1
+                        </div>
+                        <div className='project-col'>
+                                1
+                        </div>
+                        <div className='project-col'>
+                                1
+                        </div>
                     </div>
                 </div>
           </div>
