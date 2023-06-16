@@ -19,7 +19,7 @@ const Home = () =>{
           <div className='about'>
                 <div className='language-skills'>
                     <div className='language-skills-item'>
-                        <h4>Language :</h4>
+                        <h4>Language ~</h4>
                         <div className='l-s-img-row'>
                             <img className='l-s-img' alt='c++' src='./images/languages/cpp.png'/>
                             <img className='l-s-img' alt='javascript' src='./images/languages/js.png'/>
@@ -38,7 +38,7 @@ const Home = () =>{
                         </div>
                     </div>
                     <div className='language-skills-item'>
-                        <h4>Skills :</h4>
+                        <h4>Skills ~</h4>
                         <div className='l-s-img-row'>
                             <img className='l-s-img' alt='React' src='./images/skills/react.png'/>
                             <img className='l-s-img' alt='Nodejs' src='./images/skills/nodejs.png'/>
@@ -78,7 +78,7 @@ const Home = () =>{
 
                                 <div className='project-card'>
                                         <div className='card-title-section'>
-                                            <img className='project-image' src='./images/languages/cutie.png' />
+                                            <img className='project-image' src='./images/languages/office.png' />
                                             <h3>title</h3>
                                         </div>
                                         <div className='card-description-section'>
