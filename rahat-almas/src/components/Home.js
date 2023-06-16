@@ -18,13 +18,46 @@ const Home = () =>{
 
           <div className='about'>
                 <div className='language-skills'>
-                    <div>
-                        language section
+                    <div className='language-skills-item'>
+                        <h4>Language</h4>
+                        <div className='l-s-img-row'>
+                            <img className='l-s-img' alt='c++' src=''/>
+                            <img className='l-s-img' alt='javascript' src=''/>
+                            <img className='l-s-img' alt='python' src=''/>
+                            <img className='l-s-img' alt='dart' src=''/>
+                            <img className='l-s-img' alt='java' src=''/>
+                        </div>
+                        <div className='l-s-description'>
+                            <ul>
+                                <li>C++ : Hello from cpp </li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>Dart</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div>
-                        Skill section
+                    <div className='language-skills-item'>
+                        <h4>Skills</h4>
+                        <div className='l-s-img-row'>
+                            <img className='l-s-img' alt='React' src=''/>
+                            <img className='l-s-img' alt='Nodejs' src=''/>
+                            <img className='l-s-img' alt='Express' src=''/>
+                            <img className='l-s-img' alt='prisma-orm' src=''/>
+                            <img className='l-s-img' alt='MySql' src=''/>
+                        </div>
+                        <div className='l-s-description'>
+                            <ul>
+                                <li>React</li>
+                                <li>Nodejs</li>
+                                <li>Express</li>
+                                <li>prisma-orm</li>
+                                <li>MySql</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
                 <div className='projects'>
                     <div>
                         project card
