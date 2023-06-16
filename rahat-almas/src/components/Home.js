@@ -125,10 +125,16 @@ const Home = () =>{
 
           <footer className='site-map'>
               <div className='intro'> 
-                     1
+                    <div className='image-name'>
+                        <img alt='rahat-almas' src='./images/vector2.png' style={{width:"100px",}}/>
+                        <h3>Rahat Almas</h3>
+                    </div>
               </div>
               <div className='profile-container'>
-                     2
+                    <a>GitHub</a>
+                    <a>LinkedIn</a>
+                    <a>YouTube</a>
+                    <a>LeetCode</a>
               </div>
               <div className='map'>
                      3
