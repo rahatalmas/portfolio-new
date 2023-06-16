@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router,Routes, Route, BrowserRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
@@ -10,12 +11,17 @@ import Blogs from './components/Blogs';
 function App() {
   return (
     <div className="App">
-       <Nav/>
-       <Home/>
-       <About/>
-       <Contact/>
-       <Portfolio/>
-       <Blogs/>
+       <Router>
+          <Nav/>
+          <Routes>
+            <Route exact path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/portfolio" element={<Portfolio/>}/>
+            <Route path="/blogs" element={<Blogs/>}/>
+          </Routes>
+       </Router>
+
     </div>
   );
 }

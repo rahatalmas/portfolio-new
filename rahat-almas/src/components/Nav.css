@@ -1,0 +1,36 @@
+.nav-container{
+    background-color: rgb(18, 18, 19);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.link-container{
+
+}
+.link{
+    padding:25px;
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline whitesmoke;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .link-container{
+        display: none;
+        width: 25%;
+    }
+    .link{
+        padding: 20px;
+        display: block;
+    }
+  }
