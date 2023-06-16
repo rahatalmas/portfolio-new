@@ -60,13 +60,13 @@ const Home = () =>{
 
                 <div className='projects'>
                     <div className='project-row'> 
-                        <div className='project-col'>
+                        <div className='project-card'>
                                 1
                         </div>
-                        <div className='project-col'>
+                        <div className='project-card'>
                                 1
                         </div>
-                        <div className='project-col'>
+                        <div className='project-card'>
                                 1
                         </div>
                     </div>
