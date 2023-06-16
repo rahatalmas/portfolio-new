@@ -110,7 +110,7 @@ const Home = () =>{
           </div>
 
           <footer>
-            rahatalmas
+            rahatalmas hello
           </footer>
      
        </div>
