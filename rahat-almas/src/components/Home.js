@@ -12,6 +12,11 @@ const Home = () =>{
                 <div className='intro-text-container'>
                     <h1>Hi, I'm Rahat Almas</h1>
                     <p>I'm a Full Stack Developer</p>
+                    <div className='profiles'>
+                       <p> "_"  ^.^ "." ^_^  </p>
+                       <p> "_"  ^.^ "." ^_^  </p>
+                    </div>
+                    <button className='intro-section-button'>Knock!</button>
                 </div>
           </div>
 
@@ -68,10 +73,13 @@ const Home = () =>{
                                         </div>
                                         <div className='card-description-section'>
                                             <p>
-                                                description...
+                                                Features :
+                                            </p>
+                                            <p>
+                                                Language & Framework :
                                             </p>
                                             <div>
-                                                links ...
+                                                Github : 
                                             </div>
                                         </div>
                                 </div>
@@ -83,10 +91,13 @@ const Home = () =>{
                                         </div>
                                         <div className='card-description-section'>
                                             <p>
-                                                description...
+                                                Features :
+                                            </p>
+                                            <p>
+                                                Language & Framework :
                                             </p>
                                             <div>
-                                                links ...
+                                                Github : 
                                             </div>
                                         </div>
                                 </div>
@@ -97,11 +108,14 @@ const Home = () =>{
                                             <h3>title</h3>
                                         </div>
                                         <div className='card-description-section'>
+                                           <p>
+                                                Features :
+                                            </p>
                                             <p>
-                                                description...
+                                                Language & Framework :
                                             </p>
                                             <div>
-                                                links ...
+                                                Github : 
                                             </div>
                                         </div>
                                 </div>
