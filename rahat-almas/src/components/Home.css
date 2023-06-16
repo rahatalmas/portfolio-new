@@ -93,3 +93,25 @@
 .card-description-section{
     padding:0px 10px;
 }
+
+
+.site-map{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 30vh;
+    background-color: rgb(17, 17, 17);
+}
+
+.intro{
+    flex: 1;
+}
+.profile-container{
+    flex: 1;
+}
+.map{
+    flex:1;
+}

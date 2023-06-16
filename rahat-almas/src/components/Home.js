@@ -123,10 +123,18 @@ const Home = () =>{
                 </div>
           </div>
 
-          <footer>
-            rahatalmas hello
+          <footer className='site-map'>
+              <div className='intro'> 
+                     1
+              </div>
+              <div className='profile-container'>
+                     2
+              </div>
+              <div className='map'>
+                     3
+              </div>
           </footer>
-     
+
        </div>
     );
 }
