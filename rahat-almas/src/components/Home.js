@@ -109,9 +109,9 @@ const Home = () =>{
                 </div>
           </div>
 
-          <div>
-            Footer
-          </div>
+          <footer>
+            rahatalmas
+          </footer>
      
        </div>
     );
