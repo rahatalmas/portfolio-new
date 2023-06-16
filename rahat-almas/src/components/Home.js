@@ -21,11 +21,11 @@ const Home = () =>{
                     <div className='language-skills-item'>
                         <h4>Language</h4>
                         <div className='l-s-img-row'>
-                            <img className='l-s-img' alt='c++' src=''/>
-                            <img className='l-s-img' alt='javascript' src=''/>
-                            <img className='l-s-img' alt='python' src=''/>
-                            <img className='l-s-img' alt='dart' src=''/>
-                            <img className='l-s-img' alt='java' src=''/>
+                            <img className='l-s-img' alt='c++' src='./images/languages/cpp.png'/>
+                            <img className='l-s-img' alt='javascript' src='./images/languages/js.png'/>
+                            <img className='l-s-img' alt='python' src='./images/languages/python.png'/>
+                            <img className='l-s-img' alt='dart' src='./images/languages/golang.png'/>
+                            <img className='l-s-img' alt='java' src='./images/languages/java.png'/>
                         </div>
                         <div className='l-s-description'>
                             <ul>

@@ -40,3 +40,12 @@
     border-radius: 5px;
     height: 45vh;
 }
+
+.l-s-img{
+    height: 65px;
+    width:65px;
+    padding: 5px;
+}
+.l-s-description{
+    padding: 0px;
+}
