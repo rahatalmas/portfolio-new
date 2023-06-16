@@ -59,18 +59,58 @@ const Home = () =>{
                 </div>
 
                 <div className='projects'>
-                    <div className='project-row'> 
-                        <div className='project-card'>
-                                1
+                   
+                        <div className='project-row'> 
+                                <div className='project-card'>
+                                        <div className='card-title-section'>
+                                            <img className='project-image' src='./images/languages/cutie.png' />
+                                            <h3>Rest API (NodeJs)</h3>
+                                        </div>
+                                        <div className='card-description-section'>
+                                            <p>
+                                                description...
+                                            </p>
+                                            <div>
+                                                links ...
+                                            </div>
+                                        </div>
+                                </div>
+
+                                <div className='project-card'>
+                                        <div className='card-title-section'>
+                                            <img className='project-image' src='./images/languages/cutie.png' />
+                                            <h3>title</h3>
+                                        </div>
+                                        <div className='card-description-section'>
+                                            <p>
+                                                description...
+                                            </p>
+                                            <div>
+                                                links ...
+                                            </div>
+                                        </div>
+                                </div>
+
+                                <div className='project-card'>
+                                        <div className='card-title-section'>
+                                            <img className='project-image' src='./images/languages/cutie.png' />
+                                            <h3>title</h3>
+                                        </div>
+                                        <div className='card-description-section'>
+                                            <p>
+                                                description...
+                                            </p>
+                                            <div>
+                                                links ...
+                                            </div>
+                                        </div>
+                                </div>
                         </div>
-                        <div className='project-card'>
-                                1
-                        </div>
-                        <div className='project-card'>
-                                1
-                        </div>
-                    </div>
                 </div>
+          </div>
+
+          <div>
+            Footer
           </div>
      
        </div>

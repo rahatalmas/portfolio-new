@@ -54,21 +54,39 @@
     background-color: rgba(25, 25, 46, 0.13);
     width: 91%;
     margin-top: 25px;
+    border-radius: 5px;
     border:1px solid rgb(31, 31, 31);
 }
 
 .project-row{
-    padding:15px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
+    grid-template-columns: 32% 32% 32%;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
 }
 
 .project-card{
-    background-color: rgb(39, 12, 12);
+    background-color: rgba(12, 26, 37, 0.598);
     height: 200px;
     border-radius: 5px;
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    
+}
+
+.card-title-section{
+   display: grid;
+   grid-template-columns: 25% 75%;
+   gap: 2.5px;
+   background-color: rgba(12, 62, 23, 0.713);
+   align-items: center;
+   text-align:  left;
+
+}
+.project-image{
+    width: 65px;
+}
+.card-description-section{
+    padding:0px 10px;
 }
