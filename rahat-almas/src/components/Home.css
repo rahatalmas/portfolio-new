@@ -95,28 +95,30 @@
 }
 
 .site-map{
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 25px;
-    padding: 20px 10px;
+    gap: 1px;
+    padding: 75px ;
     background-color: rgb(17, 17, 17);
 }
 
 .intro{
-    flex: 1;
-    text-align: left;
-    padding:20px 50px;
+    flex: 1.5;
 }
 .intro-image-name{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .rahat-almas{
-   margin: 0 auto;
+   border-radius: 100%;
 }
 .intro h3{
     color: rgb(165, 162, 162);
+    padding-left: 15px;
 }
 .profile-container{
     flex: 1;

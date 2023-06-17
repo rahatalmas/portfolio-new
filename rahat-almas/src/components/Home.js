@@ -127,8 +127,14 @@ const Home = () =>{
           <footer className='site-map'>
               <div className='intro'> 
                     <div className='intro-image-name'>
-                        <img alt='rahat-almas' src='./images/vector2.png' style={{width:"85px",}}/>
+                        <img className='rahat-almas' alt='rahat-almas' src='./images/vector2.png' style={{width:"75px",}}/>
                         <h3>Rahat Almas</h3>
+                    </div>
+                    <div className='intro-details'>
+                        <a className='sitemap-link'>Email : rahatalmas55@gmail.com</a>
+                        <a className='sitemap-link'>Alternative : almas15-3914@diu.edu.bd</a>
+                        <a className='sitemap-link'>Phone: +8801*********</a>
+                        <a className='sitemap-link'>Education : Daffodil International University</a>
                     </div>
               </div>
               <div className='profile-container'>
