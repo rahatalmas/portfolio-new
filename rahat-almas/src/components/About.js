@@ -15,7 +15,7 @@ const About = () =>{
                      Language & Framework :
                </p>
                <div>
-                     Github : 
+                     Github : gmail.com
                </div>
             </div>
       </div>
