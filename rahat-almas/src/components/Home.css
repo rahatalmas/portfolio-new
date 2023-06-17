@@ -40,7 +40,7 @@
     height: 45vh;
 }
 .language-skills-item h4{
-    border-bottom: 3.5px solid rgba(22, 116, 71, 0.893);
+    border-bottom: 3.5px solid rgba(20, 115, 70, 0.85);
     padding-bottom: 10px;
 }
 .l-s-img{
@@ -62,8 +62,8 @@
 
 .project-row{
     display: grid;
-    grid-template-columns: 32% 32% 32%;
-    gap: 10px;
+    grid-template-columns: 31% 31% 31%;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     padding:10px 0px;
@@ -74,6 +74,7 @@
     height: 200px;
     border-radius: 5px;
     text-align: left;
+    color: whitesmoke;
     
 }
 
@@ -82,7 +83,7 @@
    display: grid;
    grid-template-columns: 25% 75%;
    gap: 2.5px;
-   background-color: rgba(12, 62, 23, 0.713);
+   background-color: rgba(125, 155, 125, 0.75);
    align-items: center;
    text-align:  left;
 
@@ -132,4 +133,6 @@
     width: 100%;
     display: inline-block;
     padding: 10px 25px;
+}
+.end-line{
 }

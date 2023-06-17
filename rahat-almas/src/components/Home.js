@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-
+import About from './About';
 const Home = () =>{
     return(
        <div className='component-container'>
@@ -67,59 +67,12 @@ const Home = () =>{
                 <div className='projects'>
                    
                         <div className='project-row'> 
-                                <div className='project-card'>
-                                        <div className='card-title-section'>
-                                            <img className='project-image' src='./images/languages/cutie.png' />
-                                            <h3>Rest API (NodeJs)</h3>
-                                        </div>
-                                        <div className='card-description-section'>
-                                            <p>
-                                                Features :
-                                            </p>
-                                            <p>
-                                                Language & Framework :
-                                            </p>
-                                            <div>
-                                                Github : 
-                                            </div>
-                                        </div>
-                                </div>
-
-                                <div className='project-card'>
-                                        <div className='card-title-section'>
-                                            <img className='project-image' src='./images/languages/office.png' />
-                                            <h3>title</h3>
-                                        </div>
-                                        <div className='card-description-section'>
-                                            <p>
-                                                Features :
-                                            </p>
-                                            <p>
-                                                Language & Framework :
-                                            </p>
-                                            <div>
-                                                Github : 
-                                            </div>
-                                        </div>
-                                </div>
-
-                                <div className='project-card'>
-                                        <div className='card-title-section'>
-                                            <img className='project-image' src='./images/languages/cutie.png' />
-                                            <h3>title</h3>
-                                        </div>
-                                        <div className='card-description-section'>
-                                           <p>
-                                                Features :
-                                            </p>
-                                            <p>
-                                                Language & Framework :
-                                            </p>
-                                            <div>
-                                                Github : 
-                                            </div>
-                                        </div>
-                                </div>
+                                <About/>
+                                <About/>
+                                <About/>
+                                <About/>
+                                <About/>
+                                <About/>
                         </div>
                 </div>
           </div>
@@ -153,6 +106,9 @@ const Home = () =>{
                      <Link to="/" className='sitemap-link'>Photography</Link>
               </div>
           </footer>
+          <div className='end-line'>
+             
+          </div>
 
        </div>
     );
