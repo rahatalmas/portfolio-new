@@ -4,6 +4,7 @@ const Portfolio = () =>{
     return(
        <div className='component-container'>
           Portfolio Page
+          under construction...
        </div>
     );
 }
