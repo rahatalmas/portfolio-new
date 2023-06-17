@@ -60,7 +60,7 @@
     border:1px solid rgb(31, 31, 31);
 }
 .project-header{
-    color: rgba(98, 185, 144, 0.952);
+    color: rgb(40, 148, 97);
 }
 .project-row{
     display: grid;
@@ -85,7 +85,7 @@
    display: grid;
    grid-template-columns: 25% 75%;
    gap: 2.5px;
-   background-color: rgba(125, 155, 125, 0.725);
+   background-color: rgba(15, 14, 53, 0.725);
    align-items: center;
    text-align:  left;
 
