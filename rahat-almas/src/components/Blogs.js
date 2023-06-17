@@ -8,7 +8,7 @@ const Blogs = () =>{
              <h1>Blogs Page</h1>
              <p>This is the Blogs Page</p>
              <div>
-               chekc
+               chekck this  ref
              </div>
           </div>
        </div>
