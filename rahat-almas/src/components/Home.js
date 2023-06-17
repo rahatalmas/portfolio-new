@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () =>{
     return(
@@ -37,7 +38,7 @@ const Home = () =>{
                                 <li>C++ : Hello from cpp </li>
                                 <li>JavaScript</li>
                                 <li>Python</li>
-                                <li>Dart</li>
+                                <li>GoLang</li>
                                 <li>Java</li>
                             </ul>
                         </div>
@@ -125,19 +126,25 @@ const Home = () =>{
 
           <footer className='site-map'>
               <div className='intro'> 
-                    <div className='image-name'>
-                        <img alt='rahat-almas' src='./images/vector2.png' style={{width:"100px",}}/>
+                    <div className='intro-image-name'>
+                        <img alt='rahat-almas' src='./images/vector2.png' style={{width:"85px",}}/>
                         <h3>Rahat Almas</h3>
                     </div>
               </div>
               <div className='profile-container'>
-                    <a>GitHub</a>
-                    <a>LinkedIn</a>
-                    <a>YouTube</a>
-                    <a>LeetCode</a>
+                    <a href='#' className='sitemap-link'><span></span>GitHub</a>
+                    <a href='#' className='sitemap-link'>LinkedIn</a>
+                    <a href='#' className='sitemap-link'>HackerRank</a>
+                    <a href='#' className='sitemap-link'>LeetCode</a>
+                    <a href='#' className='sitemap-link'>YouTube</a>
+                    <a href='#' className='sitemap-link'>FaceBook</a>
               </div>
               <div className='map'>
-                     3
+                     <Link to="/" className='sitemap-link'>Projects</Link>
+                     <Link to="/" className='sitemap-link'>Skills</Link>
+                     <Link to="/" className='sitemap-link'>About</Link>
+                     <Link to="/" className='sitemap-link'>Blogs</Link>
+                     <Link to="/" className='sitemap-link'>Photography</Link>
               </div>
           </footer>
 
