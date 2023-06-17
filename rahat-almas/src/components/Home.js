@@ -25,7 +25,7 @@ const Home = () =>{
           <div className='about'>
                 <div className='language-skills'>
                     <div className='language-skills-item'>
-                        <h4>Language ~</h4>
+                        <h4>Language ~$</h4>
                         <div className='l-s-img-row'>
                             <img className='l-s-img' alt='c++' src='./images/languages/cpp.png'/>
                             <img className='l-s-img' alt='javascript' src='./images/languages/js.png'/>
@@ -44,7 +44,7 @@ const Home = () =>{
                         </div>
                     </div>
                     <div className='language-skills-item'>
-                        <h4>Skills ~</h4>
+                        <h4>Skills ~$</h4>
                         <div className='l-s-img-row'>
                             <img className='l-s-img' alt='React' src='./images/skills/react.png'/>
                             <img className='l-s-img' alt='Nodejs' src='./images/skills/nodejs.png'/>
@@ -65,7 +65,7 @@ const Home = () =>{
                 </div>
 
                 <div className='projects'>
-                   
+                        <h3 className='project-header' style={{paddingLeft:"2%",textAlign:"center",color:""}}>Projects ~$</h3>
                         <div className='project-row'> 
                                 <About/>
                                 <About/>
@@ -88,6 +88,8 @@ const Home = () =>{
                         <a className='sitemap-link'>Alternative : almas15-3914@diu.edu.bd</a>
                         <a className='sitemap-link'>Phone: +8801*********</a>
                         <a className='sitemap-link'>Education : Daffodil International University</a>
+                        <a className='sitemap-link'>Department : Computer Science & Engineering</a>
+
                     </div>
               </div>
               <div className='profile-container'>
