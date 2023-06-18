@@ -108,31 +108,35 @@
     grid-template-columns:50% 50%;
 }
 .experience-section{
-    background-color:yellow;
+    background-color:rgb(21, 20, 26);
 }
 
 .contact-form-section{
     position:relative;
 }
+.contact-form-section h2{
+    color: rgb(92, 160, 92);
+}
 .form{
-    margin-bottom:100px ;
+    margin-top:0px ;
     padding:15px
 }
 .input{
     width:100%;
     box-sizing:border-box;
-    padding:15px 5px;
+    padding:20px 5px;
     margin:5px 0px;
     outline:none;
     border:none;
     border-radius:5px;
     background-color:rgb(29, 29, 56);
     color:white;
+    resize: none;
 }
 .form-button{
     padding:10px;
     width:100%;
-    background-color:tomato;
+    background-color:rgba(250, 115, 90, 0.75);
     outline:none;
     border:none;
     border-radius:5px;
@@ -142,8 +146,8 @@
 .form-section-image{
     width:150px;
     position:absolute;
-    bottom:-27px;
-    left:0;
+    top:-20px;
+    right:20px;
 }
 
 

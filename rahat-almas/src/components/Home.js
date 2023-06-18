@@ -1,8 +1,15 @@
 import React from 'react';
 import './Home.css';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import About from './About';
+import os from 'os';
 const Home = () =>{
+
+    useEffect(() => {
+        console.log(os.networkInterfaces());
+    },[]);
+
     return(
        <div className='component-container'>
 
@@ -85,6 +92,7 @@ const Home = () =>{
               </div>
               
               <div className="contact-form-section">
+                    <h2 style={{marginTop:"50px",marginLeft:"20px"}}>Contact ~$</h2>
                     <div className="form">
                         <input className="input" placeholder="name..."/>
                         <input className="input" placeholder="email..."/>
