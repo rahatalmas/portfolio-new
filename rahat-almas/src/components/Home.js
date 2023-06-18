@@ -77,6 +77,25 @@ const Home = () =>{
                 </div>
           </div>
 
+
+         <div className='contact-form-container'>
+              
+              <div className='experience-section'>
+                     experience
+              </div>
+              
+              <div className="contact-form-section">
+                    <div className="form">
+                        <input className="input" placeholder="name..."/>
+                        <input className="input" placeholder="email..."/>
+                        <input className="input" placeholder="Contact..."/>
+                        <textarea className="input" placeholder="your message..."/>
+                        <button className="form-button">Send</button>
+                    </div>
+                    <img src="./images/office.png" className="form-section-image"/>
+              </div>         
+         </div>
+
           <footer className='site-map'>
               <div className='intro'> 
                     <div className='intro-image-name'>
