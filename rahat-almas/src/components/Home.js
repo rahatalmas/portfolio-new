@@ -4,11 +4,35 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import About from './About';
 import os from 'os';
+import {useRef} from 'react';
+import axios from 'axios';
+
 const Home = () =>{
 
-    useEffect(() => {
-        console.log(os.networkInterfaces());
-    },[]);
+    const nameRef = useRef(null);
+    const emailRef = useRef(null);
+    const contactRef = useRef(null);
+    const messageRef = useRef(null);
+
+    const submitController = () =>{
+        const data = {
+            name : nameRef.current.value,
+            email : emailRef.current.value,
+            contactRef : contactRef.current.value,
+            messageRef : messageRef.current.value
+        }
+        axios.post("http://localhost:5000/knock!knock!",{data})
+          .then((res)=>{
+            console.log(res.data);
+          })
+          .catch(err=>{
+            console.log(err);
+          })
+        alert(data);
+        console.log(data);
+    }
+
+    
 
     return(
        <div className='component-container'>
@@ -94,11 +118,11 @@ const Home = () =>{
               <div className="contact-form-section">
                     <h2 style={{marginTop:"50px",marginLeft:"20px"}}>Contact ~$</h2>
                     <div className="form">
-                        <input className="input" placeholder="name..."/>
-                        <input className="input" placeholder="email..."/>
-                        <input className="input" placeholder="Contact..."/>
-                        <textarea className="input" placeholder="your message..."/>
-                        <button className="form-button">Send</button>
+                        <input className="input" ref={nameRef} placeholder="name..."/>
+                        <input className="input" ref={emailRef} placeholder="email..."/>
+                        <input className="input" ref={contactRef} placeholder="Contact..."/>
+                        <textarea className="input" ref={messageRef} placeholder="your message..."/>
+                        <button className="form-button" onClick={submitController}>Send</button>
                     </div>
                     <img src="./images/office.png" className="form-section-image"/>
               </div>         
