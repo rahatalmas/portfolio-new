@@ -1,10 +1,17 @@
 .nav-container{
-    background-color: rgb(18, 18, 18);
+    background: linear-gradient(50deg, #111241, #102400);
+    transition: all 0.1s ease-out;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
 }
+/*
+    background-color: rgb(18, 18, 18);
+*/
 .link-container{
     padding: 0;
 }

@@ -16,7 +16,6 @@ const Nav = () =>{
                 <Link className='link' to='/blogs'>Blogs</Link>
             </div>
             <div className=''>
-                 <Link className='link' to='/login'>Login</Link>
             </div>
         </nav>
     );

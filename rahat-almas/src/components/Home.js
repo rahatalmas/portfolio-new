@@ -39,11 +39,11 @@ const Home = () =>{
 
           <div className='home'>
                 <div className='intro-image-container'>
-                    <img alt='rahat-almas' src='./images/vector2.png' style={{width:"500px",}}/>
+                    <img alt='rahat-almas' src='./images/naruto.png' style={{width:"450px",}}/>
                 </div>
                 <div className='intro-text-container'>
-                    <h1>Hi, I'm Rahat Almas</h1>
-                    <p>I'm a Full Stack Developer</p>
+                    <h1>こんにちは,<br/> I'm Rahat Almas</h1>
+                    <p>I'm an Alien from Keplar _-_-_-_</p>
                     <div className='profiles'>
                        <p> "_"  ^.^ "." ^_^  </p>
                        <p> "_"  ^.^ "." ^_^  </p>
@@ -66,10 +66,9 @@ const Home = () =>{
                         </div>
                         <div className='l-s-description'>
                             <ul>
-                                <li>C++ : Hello from cpp </li>
+                                <li>C++</li>
                                 <li>JavaScript</li>
                                 <li>Python</li>
-                                <li>GoLang</li>
                                 <li>Java</li>
                             </ul>
                         </div>
