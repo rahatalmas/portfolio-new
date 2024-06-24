@@ -52,7 +52,8 @@ const Home = () =>{
             <div><FaUser size={50}/></div>
                <h1 className='h1-w1'>About</h1><h1 className='h1-w2'>Me</h1>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p> <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}>Aspiring Scientist </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}> AI & Data Enthusiast </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}>Computer Science Graduate</span ></p>
+            <p>Hello! I'm Tariqul Islam, an aspiring scientist with a strong background in Computer Science & Engineering, focusing on Machine Learning and Deep Learning. I have experience conducting research, managing conferences, overseeing data collection projects, and developing machine learning models. I'm passionate about using these technologies to solve real-world problems. My goal is to become a scientist and make significant contributions to this exciting field.</p>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             
             <div className='profile-keys'>
