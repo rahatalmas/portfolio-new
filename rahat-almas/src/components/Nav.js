@@ -6,14 +6,14 @@ const Nav = () =>{
     return(
         <nav className='nav-container'>
             <div className='logo'>
-                <Link className='link' to='/'>Life of Almas</Link>
+                <Link className='link' to='/'>Logo</Link>
             </div>
             <div className='link-container'>
                 <Link className='link' to='/'>Home</Link>
-                <Link className='link' to='/about'>About</Link>
-                <Link className='link' to='/contact'>Contact</Link>
-                <Link className='link' to='/portfolio'>Portfolio</Link>
-                <Link className='link' to='/blogs'>Blogs</Link>
+                <Link className='link' to='/about'>Experiences</Link>
+                <Link className='link' to='/cv'>Research</Link>
+                <Link className='link' to='/portfolio'>Achievements</Link>
+                <Link className='link' to='/cv'>CV</Link>
             </div>
             <div className=''>
             </div>
