@@ -93,68 +93,48 @@ I am excited about the prospect of joining a research community where I can coll
             <div><FaChalkboardTeacher size={55}/></div>
                <h1 className='h1-w1'>Training</h1><h1 className='h1-w2'></h1>
             </div>
-            <div className='h-section-content'>
-                  <div className='h-section-content-head'>
-                     <h2>Big Data Analysis</h2>
-                     <button className='details-btn' onClick={popUp} >Details</button>
-                  </div>
-                  <div className='dotanddata'><div className='circle'></div><h5>10/08/2023 – 20/08/2023 </h5> </div>
-                  <div className='dotanddata'>
-                     <div className='circle'></div>
-                     <p>Acquiring essential skills and hands-on experience in real-world projects while receiving
-                        mentorship from industry experts, highlighting a strong aptitude for rapid learning and a
-                        commitment to career growth.</p>
-                  </div>
+            <div className='train-sec'>
+            <div className='training-content'>
+               <div className='training-image-sec'>
+                  <img src='./images/luffy.jpeg' className='train-sec-img'/>
+               </div>
+               <div>
+               <div className='training-desc-sec'>
+                  <h1 className='train-sec-title'>Big Data Analysis</h1>
+                  <p className='train-sec-date'>Date: 10-05-23 - 10-05-24</p>
+                  <p className='train-sec-short'>Acquiring essential skills and hands-on experience in re...</p>
+                  <button className='train-details-btn'>Detaiils</button>
+               </div>
+               </div>
             </div>
-            <div className='h-section-content'>
-                  <div className='h-section-content-head'>
-                     <h1>Big Data Analysis</h1>
-                     <button className='details-btn' onClick={popUp} >Details</button>
-                  </div>
-                  <div className='dotanddata'><div className='circle'></div><h4>10/08/2023 – 20/08/2023 </h4> </div>
-                  <div className='dotanddata'>
-                     <div className='circle'></div>
-                     <p>Acquiring essential skills and hands-on experience in real-world projects while receiving
-                        mentorship from industry experts, highlighting a strong aptitude for rapid learning and a
-                        commitment to career growth.</p>
-                  </div>
+            <div className='training-content'>
+               <div className='training-image-sec'>
+                  <img src='./images/luffy.jpeg' className='train-sec-img'/>
+               </div>
+               <div>
+               <div className='training-desc-sec'>
+                  <h1 className='train-sec-title'>Big Data Analysis</h1>
+                  <p className='train-sec-date'>Date: 10-05-23 - 10-05-24</p>
+                  <p className='train-sec-short'>Acquiring essential skills and hands-on experience in re...</p>
+                  <button className='train-details-btn'>Detaiils</button>
+               </div>
+               </div>
             </div>
-         </div>
-         <div className='h-section-row'>
-            <div className='break-h1'>
-            <div><FaLaptopCode size={55}/></div>
-               <h1 className='h1-w1'>Online</h1><h1 className='h1-w2'>Courses</h1>
+            <div className='training-content'>
+               <div className='training-image-sec'>
+                  <img src='./images/luffy.jpeg' className='train-sec-img'/>
+               </div>
+               <div>
+               <div className='training-desc-sec'>
+                  <h1 className='train-sec-title'>Big Data Analysis</h1>
+                  <p className='train-sec-date'>Date: 10-05-23 - 10-05-24</p>
+                  <p className='train-sec-short'>Acquiring essential skills and hands-on experience in re...</p>
+                  <button className='train-details-btn'>Detaiils</button>
+               </div>
+               </div>
             </div>
-            <div className='h-section-content'>
-                  <div className='h-section-content-head'>
-                     <h1>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</h1>
-                     <button className='details-btn' onClick={popUp} >Details</button>
-                  </div>
-                  <div className='dotanddata'><div className='circle'></div><h4>10/08/2023 – 20/08/2023 </h4> </div>
-                  <div className='dotanddata'>
-                     <div className='circle'></div>
-                     <p>Contributed to a multi-faceted research project funded by ARA and UKAID, conducted by
-                     the Faculty of Graduate Studies at Daffodil International University.</p>
-                  </div>
             </div>
-         </div>
-         <div className='h-section-row'>
-            <div className='break-h1'>
-            <div><FaShapes size={55}/></div>
-               <h1 className='h1-w1'>Skills</h1><h1 className='h1-w2'></h1>
-            </div>
-            <div className='h-section-content'>
-                  <div className='h-section-content-head'>
-                     <h1>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</h1>
-                     <button className='details-btn' onClick={popUp} >Details</button>
-                  </div>
-                  <div className='dotanddata'><div className='circle'></div><h4>10/08/2023 – 20/08/2023 </h4> </div>
-                  <div className='dotanddata'>
-                     <div className='circle'></div>
-                     <p>Contributed to a multi-faceted research project funded by ARA and UKAID, conducted by
-                     the Faculty of Graduate Studies at Daffodil International University.</p>
-                  </div>
-            </div>
+            
          </div>
          <PopUpDetails popState={pop} off={popUp}></PopUpDetails>
       </div>
