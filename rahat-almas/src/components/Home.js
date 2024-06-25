@@ -90,7 +90,7 @@ I am excited about the prospect of joining a research community where I can coll
          </div>
        <div className='h-section-row'>
             <div className='break-h1'>
-            <div><FaChalkboardTeacher size={55}/></div>
+            <div><FaChalkboardTeacher size={48}/></div>
                <h1 className='h1-w1'>Training</h1><h1 className='h1-w2'></h1>
             </div>
             <div className='train-sec'>
@@ -129,12 +129,41 @@ I am excited about the prospect of joining a research community where I can coll
                   <h1 className='train-sec-title'>Big Data Analysis</h1>
                   <p className='train-sec-date'>Date: 10-05-23 - 10-05-24</p>
                   <p className='train-sec-short'>Acquiring essential skills and hands-on experience in re...</p>
-                  <button className='train-details-btn'>Detaiils</button>
+                  <button onClick={popUp} className='train-details-btn'>Detaiils</button>
                </div>
                </div>
             </div>
             </div>
-            
+         </div>
+         <div className='h-section-row'>
+            <div className='break-h1'>
+            <div><FaChalkboardTeacher size={48}/></div>
+               <h1 className='h1-w1'>Online </h1><h1 className='h1-w2'>Courses</h1>
+            </div>
+            <div className='course-sec'>
+            <div className='course-card'>
+                  <div className='course-card-img-con'>
+                     <img src='./images/luffy.jpeg' className='course-card-img'/>
+                  </div>
+                   <div className='course-card-desc'>
+                     <h1 className='course-sec-title'>Introduction To HTML5</h1>
+                     <p className='course-sec-short'>University of Michigan</p>
+                     <p className='course-sec-grade'>Final Grade: 89%</p>
+                     <button className='course-btn'>Details</button>
+                   </div>
+               </div>
+               <div className='course-card'>
+                  <div className='course-card-img-con'>
+                     <img src='./images/luffy.jpeg' className='course-card-img'/>
+                  </div>
+                   <div className='course-card-desc'>
+                     <h1 className='course-sec-title'>Introduction To HTML5</h1>
+                     <p className='course-sec-short'>University of Michigan</p>
+                     <p className='course-sec-grade'>Final Grade: 89%</p>
+                     <button className='course-btn'>Details</button>
+                   </div>
+               </div>
+            </div>
          </div>
          <PopUpDetails popState={pop} off={popUp}></PopUpDetails>
       </div>

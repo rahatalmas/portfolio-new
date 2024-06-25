@@ -1,5 +1,5 @@
 .show-card{
-   
+   z-index: 500;
 }
 
 .show-card-head{
@@ -11,5 +11,5 @@
 }
 
 .show-card-desc{
-
+   font-size: 14;
 }

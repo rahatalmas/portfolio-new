@@ -19,7 +19,7 @@
     top: 5px;
     bottom: 5px;
     left: 5px;
-    z-index: 100;
+    z-index: 10;
 }
 .profile-card:hover{
     border: 1px solid #28e98c;
@@ -105,11 +105,11 @@
     margin: 0;
 }
 .h1-w1{
-    font-size: 50px;
+    font-size: 48px;
     margin:0px 10px;
 }
 .h1-w2{
-    font-size: 50px;
+    font-size: 48px;
     margin: 0px;
     color: #28e98c;
 }
@@ -193,7 +193,6 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
-    
 }
 
 .training-content{
@@ -245,7 +244,72 @@ a{
     width: 100%;
     margin-bottom: 10px;
 }
-
+.train-details-btn:hover{
+   background-color: transparent;
+   border: 1px solid #28e98c;
+   cursor: pointer;
+}
 .training-content:hover{
     border: 1px solid #28e98c;
+}
+
+
+/*Online Courses*/
+.course-sec{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 20px;
+}
+.course-card{
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.course-sec-title{
+   margin-top: 0;
+   font-size: 24px;
+}
+.course-sec-short{
+   font-size: 16px;
+   margin: 0px;
+
+}
+
+.course-sec-grade{
+   font-size: 13px;
+   margin-top: 0;
+}
+
+.course-card-img-con{
+   flex: 1;
+}
+.course-card-desc{
+   flex:2;
+   padding: 5px;
+}
+.course-card-img{
+   border-radius: 100%;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+}
+.course-btn{
+   background-color: #28e98c;
+   width: 100%;
+   border: none;
+   outline: none;
+   padding: 10px 10px;
+   border-radius: 10px;
+   color: white;
+}
+.course-btn:hover{
+   background-color: transparent;
+   border: 1px solid #28e98c;
+   cursor: pointer;
 }
