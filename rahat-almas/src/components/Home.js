@@ -23,11 +23,10 @@ const Home = () =>{
       <div className='home-header-section'>
         <div className='profile-card'>
             <div className='profile-card-header'>
-              <h3>Md Tariqul Islam</h3> <button className='profile-card-cv-btn'>CV <FaDownload/></button>
+              <h2>Md Tariqul Islam</h2> <button className='profile-card-cv-btn'>CV <FaDownload/></button>
             </div>
             <img alt='Profile Image' src='./images/luffy.jpeg' className='profile-card-imgsrc'/>
             <div className='profile-card-desc'>
-               <p>tariq@gmail.com</p>
                <p>Dhaka, Bangladesh</p>
                <p>Researcher</p>
                <div className='social-links'>
@@ -52,9 +51,14 @@ const Home = () =>{
             <div><FaUser size={50}/></div>
                <h1 className='h1-w1'>About</h1><h1 className='h1-w2'>Me</h1>
             </div>
-            <p> <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}>Aspiring Scientist </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}> AI & Data Enthusiast </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}>Computer Science Graduate</span ></p>
-            <p>Hello! I'm Tariqul Islam, an aspiring scientist with a strong background in Computer Science & Engineering, focusing on Machine Learning and Deep Learning. I have experience conducting research, managing conferences, overseeing data collection projects, and developing machine learning models. I'm passionate about using these technologies to solve real-world problems. My goal is to become a scientist and make significant contributions to this exciting field.</p>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p> <span style={{color:"#28e98c",fontSize:"20px",fontWeight:"bold"}}>Aspiring Scientist </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}> AI & Data Enthusiast </span>| <span style={{color:"#28e98c",fontSize:"22px",fontWeight:"bold"}}>Computer Science Graduate</span ></p>
+            <p>I am Tariqul Islam, a passionate and driven individual from Narayanganj, Bangladesh, with a deep-rooted love for science and technology. My journey in the world of computer science began with a Bachelor’s degree in Computer Science and Engineering from Daffodil International University, where I immersed myself in the captivating field of machine learning. From a young age, I've been fascinated by how machines can learn and evolve, and this curiosity has shaped my academic and professional pursuits.</p>
+
+            <p>Throughout my academic career, I've been fortunate to work on some truly exciting projects. One that stands out is my thesis on "Salinity-Resilient Crop Health Monitoring," where I explored the application of machine learning to agriculture, particularly focusing on disease detection in Luffa Aegyptiaca leaves. It was a project that combined my love for technology with a desire to make a tangible difference in people's lives, especially in regions like ours that are often hit hard by climate change. My work experience has been equally fulfilling. At HyperTag Solution Ltd., I had the opportunity to dive deep into practical machine learning applications, developing predictive models and handling real-world datasets. This hands-on experience has not only solidified my technical skills but also fueled my enthusiasm for applying machine learning to solve real-world problems.</p>
+
+<p>What drives me is a passion for learning and an eagerness to contribute to the advancement of technology. I believe in the power of machine learning to transform industries and improve lives, and I am keen to explore this potential further through a Ph.D. program. I am particularly interested in research that can bridge the gap between theoretical advancements and practical applications, making complex technologies accessible and beneficial to a broader community.
+I am excited about the prospect of joining a research community where I can collaborate with like-minded individuals, learn from experts in the field, and contribute to groundbreaking work that can shape the future. My goal is to continue pushing the boundaries of what’s possible with machine learning, driven by a commitment to excellence and a genuine passion for innovation.
+</p>
             
             <div className='profile-keys'>
              <h3 className='key'>Research Interest:</h3>
@@ -64,6 +68,7 @@ const Home = () =>{
                   <p className='keyn'> Supervised Learning </p>
             </div>
          </div>
+         
        </div>
        <div className='h-section-row'>
             <div className='break-h1'>
@@ -72,7 +77,7 @@ const Home = () =>{
             </div>
             <div className='h-section-content'>
                   <div className='h-section-content-head'>
-                     <h1>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</h1>
+                     <h2>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</h2>
                      <button className='details-btn' onClick={popUp} >Details</button>
                   </div>
                   <div className='dotanddata'><div className='circle'></div><h4>10/08/2023 – 20/08/2023 </h4> </div>
@@ -90,10 +95,10 @@ const Home = () =>{
             </div>
             <div className='h-section-content'>
                   <div className='h-section-content-head'>
-                     <h1>Big Data Analysis</h1>
+                     <h2>Big Data Analysis</h2>
                      <button className='details-btn' onClick={popUp} >Details</button>
                   </div>
-                  <div className='dotanddata'><div className='circle'></div><h4>10/08/2023 – 20/08/2023 </h4> </div>
+                  <div className='dotanddata'><div className='circle'></div><h5>10/08/2023 – 20/08/2023 </h5> </div>
                   <div className='dotanddata'>
                      <div className='circle'></div>
                      <p>Acquiring essential skills and hands-on experience in real-world projects while receiving

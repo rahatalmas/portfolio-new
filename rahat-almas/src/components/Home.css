@@ -1,18 +1,25 @@
 .home-container{
-   max-width: 1200px;
-   margin: 0 auto;
+   margin-left: 370px;
+   margin-top: 85px;
+   padding: 0px 15px;
 }
 
 .home-header-section{
-    padding: 10px;
+    padding: 0px;
     display: flex;
+    flex-direction: row;
 }
 
 .profile-card{
-    width: 250px;
-    padding:25px;
+    width: 300px;
+    padding:35px;
     border: 1px solid gray;
-    border-radius: 15px;
+    border-radius: 30px;
+    position: fixed;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    z-index: 100;
 }
 .profile-card:hover{
     border: 1px solid #28e98c;
@@ -23,7 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    margin-bottom: 20px;
 }
 .profile-card-cv-btn{
     background-color:#28e98c;
@@ -36,14 +43,16 @@
     font-size: large;
 }
 .profile-card-img{
- 
+    text-align: center;
 }
 
 .profile-card-imgsrc{
-   width: 250px;
-   height: 200px;
+   text-align: center;
+   width: 100%;
+   height: 40%;
    object-fit: cover;
    border-radius: 15px;
+   margin: 0 auto;
 }
 
 .profile-card-desc{
@@ -88,6 +97,7 @@
 .break-h1{
     display: flex;
     align-items: center;
+    padding: 5px 0px;
 }
 .break-h1-c{
     display: flex;
@@ -95,12 +105,12 @@
     margin: 0;
 }
 .h1-w1{
-    font-size: 65px;
-    margin-left: 5px;
+    font-size: 50px;
+    margin:0px 10px;
 }
 .h1-w2{
-    font-size: 65px;
-    margin-left: 10px;
+    font-size: 50px;
+    margin: 0px;
     color: #28e98c;
 }
 
