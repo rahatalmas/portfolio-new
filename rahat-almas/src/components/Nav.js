@@ -10,7 +10,7 @@ const Nav = () =>{
             </div>
             <div className='link-container'>
                 <Link className='link' to='/'>Home</Link>
-                <Link className='link' to='/about'>Experiences</Link>
+                <Link className='link' to='/experience'>Experiences</Link>
                 <Link className='link' to='/cv'>Research</Link>
                 <Link className='link' to='/portfolio'>Achievements</Link>
                 <Link className='link' to='/cv'>CV</Link>

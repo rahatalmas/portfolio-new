@@ -1,0 +1,94 @@
+.profile-card{
+    width: 310px;
+    padding:35px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    position: fixed;
+    top: 10%;
+    bottom: 5%;
+    left: 3%;
+    z-index: 10;
+}
+.profile-card:hover{
+    border: 1px solid #28e98c;
+}
+
+.profile-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-card-cv-btn{
+    background-color:#28e98c;
+    padding: 5px;
+    width:70px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+}
+.profile-card-img{
+    text-align: center;
+}
+
+.profile-card-imgsrc{
+   text-align: center;
+   width: 100%;
+   height: 40%;
+   object-fit: cover;
+   border-radius: 15px;
+   margin: 0 auto;
+}
+
+.profile-card-desc{
+   text-align: center;
+}
+.profile-card-data{
+   padding: 10px;
+}
+
+
+.social-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.mail-btn{
+   width: 100%;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   padding: 10px;
+   font-size: large;
+   background-color: #28e98c;
+   color: white;
+   margin-bottom: 10px;
+}
+.profile-card-cv-btn:hover{
+    background-color: rgb(2, 71, 2);
+    cursor: pointer;
+}
+
+.mail-btn:hover{
+    background-color: transparent;
+    border: 1px solid #28e98c;
+    cursor: pointer;
+}
+
+
+.profile-card-h{
+    font-size: x-large;
+}
+
+.profile-card-p{
+    font-size: x-large;
+}
+
+.icon-container{
+    margin: 15px 0px;
+}
