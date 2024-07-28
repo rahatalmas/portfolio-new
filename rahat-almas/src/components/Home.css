@@ -1,316 +1,205 @@
-.home-container{
-   margin-left: 30%;
-   margin-top: 85px;
-   padding: 0px 20px;
-   max-width: 1100px;
-}
-
-.home-header-section{
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-}
-
-.profile-card{
-    width: 300px;
-    padding:35px;
-    border: 1px solid gray;
-    border-radius: 30px;
-    position: fixed;
-    top: 5%;
-    bottom: 5%;
-    left: 2%;
-    z-index: 10;
-}
-.profile-card:hover{
-    border: 1px solid #28e98c;
-}
-
-.profile-card-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.profile-card-cv-btn{
-    background-color:#28e98c;
-    padding: 5px;
-    width:70px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: large;
-}
-.profile-card-img{
-    text-align: center;
-}
-
-.profile-card-imgsrc{
-   text-align: center;
-   width: 100%;
-   height: 40%;
-   object-fit: cover;
-   border-radius: 15px;
-   margin: 0 auto;
-}
-
-.profile-card-desc{
-     
-}
-
-.social-links{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.mail-btn{
-   width: 100%;
-   border-radius: 10px;
-   outline: none;
-   border: none;
-   padding: 10px;
-   font-size: large;
-   background-color: #28e98c;
-   color: white;
-   margin-bottom: 10px;
-}
-.profile-card-cv-btn:hover{
-    background-color: rgb(2, 71, 2);
-    cursor: pointer;
-}
-
-.mail-btn:hover{
-    background-color: transparent;
-    border: 1px solid #28e98c;
-    cursor: pointer;
-}
-
-.h-section-row{
+.main-container{
+    color: black;
+    height: 100vh;
+    padding-top: 69px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
     margin: auto;
-    padding: 20px;
-    text-align: justify;
 }
-
-.break-h1{
-    display: flex;
-    align-items: center;
-    padding: 5px 0px;
-}
-.break-h1-c{
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-.h1-w1{
-    font-size: 48px;
-    margin:0px 10px;
-}
-.h1-w2{
-    font-size: 48px;
-    margin: 0px;
-    color: #28e98c;
-}
-
-.profile-keys{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.key:nth-child(n+2):nth-last-child(n+2){
-    margin: 5px;
-}
-
-.key{
-    background-color: #28e98c;
-    border-radius: 10px;
-    padding: 5px 10px;
-    margin:5px 0px;
-}
-
-.h-section-content{
-    padding:20px 25px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    margin-bottom: 20px;
-}
-
-.h-section-content:hover{
-    border: 1px solid #28e98c;
-}
-
-.h-section-content-head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.details-btn{
-    outline: none;
-    border: none;
-    background-color: #28e98c;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 13px;
-    cursor: pointer;
-    margin-left: 20px;
-}
-
-.details-btn:hover{
-    background-color: green;
-}
-
-a{
-    color: white;
-    margin: 25px 0px;
-}
-
-.keyn{
-    padding: 0px 5px;
-}
-
-.circle{
-    height: 7px;
-    width: 7px;
-    border-radius: 100%;
-    background-color:#28e98c;
-    margin-right: 10px;
-}
-
-.dotanddata{
-    display: flex;
-    align-items:first baseline;
-}
-
-
-/* training card */
-.train-sec{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-}
-
-.training-content{
-    padding: 10px;
-    border-radius: 20px;
-    border:1px solid gainsboro;
-    margin: 10px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.training-image-sec{
+.home-container{
     
 }
-
-.training-desc-sec{
-
-}
-
-.train-sec-img{
+.about-section{
     width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.about-card-container{
+    flex:1;
+}
+.about-card{
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(230, 204, 255);
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+.card-image-con{
+    border-radius: 20px;
+    background-color: white;
+}
+.card-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-head h2{
+    margin: 0;
+}
+.cv-btn{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+.cv-btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+.about-image{
+    width: 100%;
+    height: 200px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.train-sec-title{
-    font-size: 24px;
-
+.about-decription-container{
+    flex:2;
+}
+.degree{
+    font-weight: bold;
 }
 
-.train-sec-date{
-    font-size: 12px;
+.key{
+    color: blueviolet;
+    font-weight: bold;
+}
+.attribute{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.attr-value{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.mail-btn{
+    width: 100%;
+    padding: 10px;
+    outline:none;
+    border:2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mail-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.project-section{
+    width: 100%;
+}
+
+.skill-title{
     margin: 0;
 }
-.train-sec-short{
-    font-size: 14px;
+.skill-description{
+    margin: 0;
 }
 
-.train-details-btn{
-    outline: none;
-    border: none;
-    background-color: #28e98c;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 13px;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-}
-.train-details-btn:hover{
-   background-color: transparent;
-   border: 1px solid #28e98c;
-   cursor: pointer;
-}
-.training-content:hover{
-    border: 1px solid #28e98c;
+@media screen and (max-width:900px){
+    .about-section{
+        background-color: rebeccapurple;
+    }
 }
 
 
-/*Online Courses*/
-.course-sec{
+.project-card-container{
     display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    gap: 20px;
-}
-.course-card{
-    border-radius: 15px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
+}
+
+.project-card{
+ background-color: rgb(230, 204, 255);
+ border: 1px solid gainsboro;
+ display: flex;
+ padding: 15px;
+ border-radius: 15px;
+}
+.project-card-image-con{
+    flex: 1.5;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.course-sec-title{
-   margin-top: 0;
-   font-size: 24px;
+.project-card-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
 }
-.course-sec-short{
-   font-size: 16px;
-   margin: 0px;
+.project-card-info{
+    flex:2;
+    padding-left: 10px;
+}
+.project-domain{
+    margin:0;
+}
+.project-title{
+    margin:0;
+}
+.project-description{
+    margin: 10px 0px;
+}
+.slide-circle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.slide-circle{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    border: 2px solid blueviolet;
+    margin: 0px 2px;
+}
 
+.slide-circle:first-child{
+    background-color: blueviolet;
 }
 
-.course-sec-grade{
-   font-size: 13px;
-   margin-top: 0;
+.project-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-c-btn{
+    flex: 1;
+    padding: 7px;
+    outline: none;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.p-c-btn:hover{
+    background-color: transparent;
+    color: black;
 }
 
-.course-card-img-con{
-   flex: 1;
+.p-c-btn:first-child{
+    margin-right: 5px;
 }
-.course-card-desc{
-   flex:2;
-   padding: 5px;
-}
-.course-card-img{
-   border-radius: 100%;
-   width: 150px;
-   height: 150px;
-   object-fit: cover;
-}
-.course-btn{
-   background-color: #28e98c;
-   width: 100%;
-   border: none;
-   outline: none;
-   padding: 10px 10px;
-   border-radius: 10px;
-   color: white;
-}
-.course-btn:hover{
-   background-color: transparent;
-   border: 1px solid #28e98c;
-   cursor: pointer;
+
+.sitemap-section{
+    width: 100%;
+    background-color: blueviolet;
+    height: 25vh;
 }

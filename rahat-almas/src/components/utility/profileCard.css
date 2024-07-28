@@ -9,6 +9,7 @@
     left: 3%;
     z-index: 10;
 }
+
 .profile-card:hover{
     border: 1px solid #28e98c;
 }
@@ -20,6 +21,7 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
 .profile-card-cv-btn{
     background-color:#28e98c;
     padding: 5px;
@@ -30,6 +32,7 @@
     color: white;
     font-size: large;
 }
+
 .profile-card-img{
     text-align: center;
 }

@@ -1,14 +1,15 @@
-.nav-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.nav-main{
     position: fixed;
     width: 100%;
-    top: 0;
-    padding-left: 50px;
-  background-color: rgba(31,31,31,1);
-   
+    z-index: 50;
+    background-color: darkslateblue;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
 }
 /*
 background: linear-gradient(50deg, #111241, #102400);
@@ -18,12 +19,13 @@ background: linear-gradient(50deg, #111241, #102400);
     z-index: 50;
     background-color: rgb(18, 18, 18);
 */
+
 .link-container{
-    padding: 0;
+    display: flex;
 }
 
 .link{
-    padding:5px 25px;
+    padding:0px 25px;
     display: inline-block;
     color: whitesmoke;
     text-decoration: none;

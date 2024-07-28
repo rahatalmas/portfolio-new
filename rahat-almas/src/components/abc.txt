@@ -1,0 +1,11 @@
+1. *Title*: Every entry has a title (e.g., job title, course title, event title).
+2. *Institution/Company/Organizer*: Every entry lists the institution, company, or organizer involved.
+3. *Location*: Every entry specifies the location.
+4. *Start and End Date*: Every entry includes start and end dates.
+5. *Description*: Every entry provides a detailed description of responsibilities, activities, skills, or outcomes.
+6. *Achievements/Outcomes*: Notable achievements or outcomes resulting from the experience (e.g., projects completed, skills acquired).
+7. *Certifications/Qualifications*: Any specific certifications or qualifications earned as part of the education or work experience.
+8. *Skills*: Specific skills developed or utilized during the experience (e.g., programming languages, tools).
+9. *Responsibilities*: Specific responsibilities outlined in more detail beyond general descriptions.
+10. *Links*: Any relevant links to projects, certifications, or publications associated with the experience.
+11. *Contact Information*: Sometimes included for references or key contacts related to the position or organization.

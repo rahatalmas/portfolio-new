@@ -1,23 +1,23 @@
 import React from 'react';
 import './Nav.css';
-import {Link} from 'react-router-dom';
+import {Link,Outlet} from 'react-router-dom';
 
 const Nav = () =>{
     return(
-        <nav className='nav-container'>
+        <div className='nav-main'>
+           <nav className='nav-container'>
             <div className='logo'>
-                <Link className='link' to='/'>Logo</Link>
+                <Link className='link' to='/'>Rahat Almas</Link>
             </div>
             <div className='link-container'>
                 <Link className='link' to='/'>Home</Link>
-                <Link className='link' to='/experience'>Experiences</Link>
-                <Link className='link' to='/cv'>Research</Link>
-                <Link className='link' to='/portfolio'>Achievements</Link>
-                <Link className='link' to='/cv'>CV</Link>
+                <Link className='link' to='/contact'>Contact</Link>
+                <Link className='link' to='/blogs'>Blogs</Link>
             </div>
             <div className=''>
             </div>
         </nav>
+        </div>
     );
 }
 
